@@ -1,5 +1,4 @@
 
-   
 @import url("~leaflet/dist/leaflet.css");
 
 body,
@@ -7,4 +6,21 @@ body,
 .leaflet-container {
   height: 100vh;
   width: 100vw;
+} 
+
+.basemaps-container {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  height: auto;
+  width: auto;
+  border-radius: 4px;
+  background-color: white;
 }
+
+.basemaps-container select {
+  width: 200px;
+  height: 20px;
+} 
+
