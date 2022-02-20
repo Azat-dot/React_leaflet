@@ -24,3 +24,14 @@ body,
   height: 20px;
 } 
 
+.geojson-toggle {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  z-index: 1000;
+  height: auto;
+  width: auto;
+  border-radius: 4px;
+  background-color: white;
+}
+
